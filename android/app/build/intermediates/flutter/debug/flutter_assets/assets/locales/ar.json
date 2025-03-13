@@ -1,0 +1,12 @@
+{
+    "menu": "القائمة",
+    "addProduct": "إضافة منتج",
+    "captureInstructions": "قم بتصوير المنتج من جميع الزوايا",
+    "auto_capture_guide": "اضغط على العنصر لاكتشاف الحدود تلقائيًا",
+    "manual_capture_guide": "اتبع الخطوات للتصوير من جميع الزوايا",
+    "horizontal": "أفقي",
+    "vertical": "عمودي",
+    "circular": "دائري",
+    "capture_button": "التقاط العنصر",
+    "instructions": "التعليمات"
+  }

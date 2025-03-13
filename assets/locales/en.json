@@ -1,0 +1,12 @@
+{
+    "menu": "Menu",
+    "addProduct": "Add Product",
+    "captureInstructions": "Capture the product from all angles",
+    "auto_capture_guide": "Tap the object to auto-capture boundaries",
+    "manual_capture_guide": "Follow the steps to capture from all angles",
+    "horizontal": "Horizontal",
+    "vertical": "Vertical",
+    "circular": "Circular",
+    "capture_button": "Capture Object",
+    "instructions": "Instructions"
+  }
