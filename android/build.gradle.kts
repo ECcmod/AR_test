@@ -3,6 +3,10 @@ buildscript {
         google()
         mavenCentral()
     }
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.3.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
+    }
 }
 
 allprojects {
@@ -31,12 +35,10 @@ subprojects {
     }
 }
 
-
-
 subprojects {
     project.evaluationDependsOn(":app")
 }
 
-tasks.register<Delete>("clean") {
-    delete(rootProject.layout.buildDirectory)
+tasks.register("clean", Delete::class) {
+    delete(rootProject.buildDir)
 }

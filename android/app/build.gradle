@@ -1,9 +1,0 @@
-plugins {
-    id 'com.android.application'
-    id 'kotlin-android'
-    id 'dev.flutter.flutter-gradle-plugin'
-}
-
-// Remove any "apply plugin" or "apply from" statements if they exist
-// Keep the rest of your existing configuration
-// ...existing code...
